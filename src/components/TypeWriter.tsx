@@ -1,4 +1,4 @@
-import { Contact, Dog, File } from "lucide-react";
+import { Contact, File } from "lucide-react";
 import { TypewriterEffectSmooth } from "../components/ui/typewriter-effect";
 
 import { TypographyLarge } from "./typography/TypographyLarge";

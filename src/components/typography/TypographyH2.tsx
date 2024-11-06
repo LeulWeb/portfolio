@@ -2,7 +2,7 @@ import { type ReactNode } from "react";
 
 
 
-interface TypographyProp {
+export interface TypographyProp {
   children : ReactNode
 }
 

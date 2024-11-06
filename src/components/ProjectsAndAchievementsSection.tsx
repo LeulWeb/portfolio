@@ -1,7 +1,13 @@
+import { TypographyH1 } from "./typography/TypographyH1";
+
 export const ProjectsAndAchievementsSection = ()=>{
     return (
-      <div className=" h-screen">
-        <p>ProjectsAndAchievementsSection</p>
-      </div>
+      <section className="min-h-screen  md:w-10/12 w-11/12  mx-auto">
+        <div className="w-full text-center">
+          <TypographyH1>My Projects and Achievements</TypographyH1>
+        </div>
+
+       
+      </section>
     );
 }
