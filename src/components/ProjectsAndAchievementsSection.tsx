@@ -1,6 +1,6 @@
 export const ProjectsAndAchievementsSection = ()=>{
     return (
-      <div>
+      <div className=" h-screen">
         <p>ProjectsAndAchievementsSection</p>
       </div>
     );

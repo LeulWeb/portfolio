@@ -8,7 +8,7 @@ import { ServiceSection } from "./components/ServicesSection";
 
 export const App = () => {
   return (
-    <main>
+    <main >
       <BgGridWrapper>
         <section className="flex flex-col min-h-screen text-white">
           <Navbar />

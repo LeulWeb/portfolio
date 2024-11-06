@@ -1,5 +1,5 @@
 export const ServiceSection = ()=>{
-    return <section>
+    return <section className=" h-screen ">
         <p>Service section </p>
     </section>
 }
