@@ -1,4 +1,5 @@
 import {  BgGridWrapper } from "./components/BgGridWrapper";
+import { Certificates } from "./components/Certficates";
 import { ContactSection } from "./components/ContactSection";
 import { Footer } from "./components/Footer";
 import { HeroSection } from "./components/HeroSection";
@@ -8,15 +9,17 @@ import { ServiceSection } from "./components/ServicesSection";
 
 export const App = () => {
   return (
-    <main >
+    <main>
       <BgGridWrapper>
         <section className="flex flex-col min-h-screen text-white">
           <Navbar />
           <section className="flex-grow">
-            <HeroSection/>
-            <ServiceSection/>
-            <ProjectsAndAchievementsSection/>
-            <ContactSection/>
+            <HeroSection />
+            <ServiceSection />
+            <ProjectsAndAchievementsSection />
+            <Certificates />
+
+            <ContactSection />
           </section>
           <Footer />
         </section>
