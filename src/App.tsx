@@ -1,5 +1,6 @@
+import {Achievements} from "./components/Achievements";
 import {  BgGridWrapper } from "./components/BgGridWrapper";
-import { Certificates } from "./components/Certficates";
+
 import { ContactSection } from "./components/ContactSection";
 import { Footer } from "./components/Footer";
 import { HeroSection } from "./components/HeroSection";
@@ -17,7 +18,7 @@ export const App = () => {
             <HeroSection />
             <ServiceSection />
             <ProjectsAndAchievementsSection />
-            <Certificates />
+
 
             <ContactSection />
           </section>

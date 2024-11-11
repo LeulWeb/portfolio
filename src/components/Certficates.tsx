@@ -10,6 +10,7 @@ import elic from '../assets/elic.jpeg'
 import python from '../assets/python.jpeg'
 import safari from  '../assets/safari.jpeg'
 import ai from '../assets/ai.jpeg'
+import { TypographyH2 } from "./typography/TypographyH2";
 
 
 const CARD_SIZE_LG = 365;
@@ -83,11 +84,14 @@ export const Certificates = () => {
 
   return (
     <div
-      className="relative w-full overflow-hidden "
+      className="relative  mx-auto overflow-hidden "
       style={{
         height: SECTION_HEIGHT,
       }}
     >
+      <section className="text-center w-full">
+        <TypographyH2>Certificates</TypographyH2>
+      </section>
       {testimonials.map((t, idx) => {
         let position = 0;
 
@@ -215,29 +219,25 @@ type TestimonialType = {
 const TESTIMONIAL_DATA: TestimonialType[] = [
   {
     tempId: 0,
-    testimonial:
-      "My favorite solution in the market. We work 5x faster with COMPANY.",
+    testimonial:"",
     by: "Alex, CEO at COMPANY",
     imgSrc: minab,
   },
   {
     tempId: 1,
-    testimonial:
-      "",
+    testimonial: "",
     by: "AEL",
     imgSrc: ael,
   },
   {
     tempId: 2,
-    testimonial:
-      "",
+    testimonial: "",
     by: "BiT",
     imgSrc: ai,
   },
   {
     tempId: 3,
-    testimonial:
-      "",
+    testimonial: "",
     by: "Career Development Center, BiT",
     imgSrc: cdc,
   },
@@ -249,22 +249,20 @@ const TESTIMONIAL_DATA: TestimonialType[] = [
   },
   {
     tempId: 5,
-    testimonial:"",
+    testimonial: "",
     by: "Udemy",
     imgSrc: deep,
   },
   {
     tempId: 6,
-    testimonial:
-      "",
+    testimonial: "",
     by: "Safaricom & Visit Oromia",
     imgSrc: safari,
   },
   {
     tempId: 7,
-    testimonial:
-      "ELIC - BIT",
-    by: "Daniel, CEO at COMPANY",
+    testimonial: "",
+    by: "ELIC - BIT",
     imgSrc: elic,
   },
   {
@@ -273,5 +271,4 @@ const TESTIMONIAL_DATA: TestimonialType[] = [
     by: "Orange digital center in Ethiopia",
     imgSrc: python,
   },
-
 ];

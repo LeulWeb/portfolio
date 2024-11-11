@@ -3,6 +3,8 @@ import { useState } from "react";
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
 import useMeasure from "react-use-measure";
 
+import { TypographyH2 } from "./typography/TypographyH2";
+
 const CARD_WIDTH = 350;
 const MARGIN = 20;
 const CARD_SIZE = CARD_WIDTH + MARGIN;
@@ -39,11 +41,13 @@ const BlogPostCarousel = () => {
   };
 
   return (
-    <section className="py-8" ref={ref}>
+    <section className="py-8 " ref={ref}>
       <div className="relative overflow-hidden p-4">
-        <div className="mx-auto max-w-6xl">
+        <div className="mx-auto ">
           <div className="flex items-center justify-between">
-            <h2 className="mb-4 text-4xl">Projects</h2>
+            <section className="text-center w-full">
+              <TypographyH2>Projects</TypographyH2>
+            </section>
 
             <div className="flex items-center gap-2">
               <button
