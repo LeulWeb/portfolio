@@ -5,7 +5,7 @@ import { ContactForm } from "./ContactForm";
 
 export const  ContactSection = () =>{
   return (
-    <section className="min-h-screen">
+    <section className=" my-7 ">
       <div className="max-w-6xl mx-auto">
         <div className="w-full text-center py-7">
           <TypographyH1>Let's talk</TypographyH1>

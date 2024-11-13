@@ -5,6 +5,18 @@ import useMeasure from "react-use-measure";
 
 import { TypographyH2 } from "./typography/TypographyH2";
 
+import tena_adam from '../assets/tena_adam.jpg'
+import ag from '../assets/ag.png'
+import roblas from '../assets/rbs.png'
+import bmgh from '../assets/projects/bmgh.jpg'
+import cashier from '../assets/projects/cashier.png'
+import hb from '../assets/projects/hb.png'
+import flora from '../assets/projects/hflora.jpg'
+import logo from '../assets/projects/logo.jpg'
+import rensys from '../assets/projects/rensys.jpg'
+import tcu from '../assets/projects/tcu.jpg'
+import yess from '../assets/projects/yess.jpg'
+
 const CARD_WIDTH = 350;
 const MARGIN = 20;
 const CARD_SIZE = CARD_WIDTH + MARGIN;
@@ -125,64 +137,89 @@ type PostType = {
 const posts: PostType[] = [
   {
     id: 1,
-    imgUrl:
-      "https://images.unsplash.com/photo-1709884735626-63e92727d8b6?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    author: "John Anderson",
-    title: "Roblas Supply Chain",
+    imgUrl:tena_adam,
+    author: "Personal Project",
+    title: "Tena Adam",
     description:
-      "Transform your logistics with cutting-edge technology and unmatched expertise. Optimize efficiency, reduce costs, and enhance reliability with Roblas Supply Chain",
+      "AI based multi disease detection, Mobile App with admin dashboard to detect diseases like Tuberculosis, heart disease, breast cancer and liver diseases",
   },
   {
     id: 2,
-    imgUrl:
-      "https://images.unsplash.com/photo-1709884735626-63e92727d8b6?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    author: "Kyle Parsons",
-    title: "Agelgil Eco Packaging",
+    imgUrl: roblas,
+    author: "Client",
+    title: "Roblas Supply Chain",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+      "Transform your logistics with cutting-edge technology and unmatched expertise. Optimize efficiency, reduce costs, and enhance reliability with Roblas Supply Chain.",
+  },
+  {
+    id: 99,
+    imgUrl: tcu,
+    author: "UI/UX Design @TCU",
+    title: "UI/UX Design Contribution for TCU",
+    description:
+      "Transform your logistics with cutting-edge technology and unmatched expertise. Optimize efficiency, reduce costs, and enhance reliability with Roblas Supply Chain.",
   },
   {
     id: 3,
-    imgUrl:
-      "https://images.unsplash.com/photo-1709884735626-63e92727d8b6?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    author: "Andrea Bates",
-    title: "Calm down, monoliths are totally fine",
+    imgUrl:ag,
+    author: "On update",
+    title: "Agelgil Eco Packaging",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+      "Responsive Landing page optimized for SEO for Agelgil Eco Packagin, built using react and tailwindcss. This is the first project I built for client, currently I am updating the site. ",
   },
   {
     id: 4,
-    imgUrl:
-      "https://images.unsplash.com/photo-1709884735626-63e92727d8b6?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    author: "Jess Drum",
-    title: "A quick guide to Framer Motion (for dummies)",
+    imgUrl: yess,
+    author: "Mobile App @Helder",
+    title: "YESS International",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
   },
   {
     id: 5,
-    imgUrl:
-      "https://images.unsplash.com/photo-1709884735626-63e92727d8b6?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    author: "Phil White",
-    title: "You probably don't need kubernetes",
+    imgUrl: cashier,
+    author: "Mobile App @Ashara",
+    title: "Cashier App",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
   },
   {
     id: 6,
-    imgUrl:
-      "https://images.unsplash.com/photo-1709884735626-63e92727d8b6?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    author: "Karen Peabody",
-    title: "State of JavaScript in 2024",
+    imgUrl:flora,
+    author: "Personal Project",
+    title: "Healthy Flora",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
   },
   {
     id: 7,
-    imgUrl:
-      "https://images.unsplash.com/photo-1709884735626-63e92727d8b6?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    author: "Dante Gordon",
-    title: "What's new in Python?",
+    imgUrl: rensys,
+    author: "Mobile App @Rensys",
+    title: "Maintenance management system",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+  },
+  {
+    id: 8,
+    imgUrl: bmgh,
+    author: "Mobile App @Helder",
+    title: "BMGH Edu Hub",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+  },
+  {
+    id: 9,
+    imgUrl: hb,
+    author: "Web App - Inprogress",
+    title: "Habtamu Alemayhu",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+  },
+  {
+    id: 10,
+    imgUrl: logo,
+    author: "Logo Design", 
+    title: "Read Ethiopia Association",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
   },

@@ -18,8 +18,6 @@ export const App = () => {
             <HeroSection />
             <ServiceSection />
             <ProjectsAndAchievementsSection />
-
-
             <ContactSection />
           </section>
           <Footer />

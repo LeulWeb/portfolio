@@ -3,7 +3,7 @@ import { TypewriterEffectSmooth } from "../components/ui/typewriter-effect";
 
 import { TypographyLarge } from "./typography/TypographyLarge";
 import { Button } from "./ui/button";
-import mypic from "../assets/realg.png";
+import mypic from "../assets/lula2.png";
 
 
 export function TypewriterEffectSmoothDemo() {
