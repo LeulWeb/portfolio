@@ -9,6 +9,7 @@ import React, { useEffect, useRef, useState } from "react";
 
 interface TimelineEntry {
   title: string;
+  logo?: string;
   content: React.ReactNode;
 }
 
@@ -33,10 +34,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
 
   return (
-    <div
-      className="w-full   text-white font-sans md:px-10"
-      ref={containerRef}
-    >
+    <div className="w-full   text-white font-sans md:px-10" ref={containerRef}>
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
         <h2 className="text-lg md:text-4xl mb-4  max-w-4xl">
           Changelog from my journey
@@ -58,6 +56,9 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                 <div className="h-4 w-4 rounded-full bg-stone-300 dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 p-2" />
               </div>
               <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold  ">
+                <span>
+                  <img src={item.logo} className="w-12 h-12" alt="" />
+                </span>
                 {item.title}
               </h3>
             </div>
@@ -67,7 +68,6 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                 {item.title}
               </h3>
               {item.content}{" "}
-            
             </div>
           </div>
         ))}
@@ -84,7 +84,6 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
             }}
             className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-purple-500 via-blue-500 to-transparent from-[0%] via-[10%] rounded-full"
           />
-          
         </div>
       </div>
     </div>
