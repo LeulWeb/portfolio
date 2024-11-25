@@ -3,7 +3,8 @@ import { TypewriterEffectSmooth } from "../components/ui/typewriter-effect";
 
 import { TypographyLarge } from "./typography/TypographyLarge";
 import { Button } from "./ui/button";
-import mypic from "../assets/lula2.png";
+import mypic from "../assets/my_pic/mypic_transparent_Craiyon1.png";
+
 
 
 export function TypewriterEffectSmoothDemo() {
@@ -24,8 +25,8 @@ export function TypewriterEffectSmoothDemo() {
     },
   ];
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center h-[40rem]   ">
-      <div className="flex flex-col items-center justify-center h-[40rem]  ">
+    <section className="flex flex-col md:flex-row items-center justify-center    ">
+      <div className="flex flex-col items-center justify-center h-[40rem] order-last md:order-first  ">
         <p className="text-neutral-100  text-xs sm:text-base  ">
           Full Stack Website 💻 and Mobile 📱 App Developer
         </p>
@@ -54,8 +55,8 @@ export function TypewriterEffectSmoothDemo() {
         </div>
       </div>
 
-      <div className="">
-        <img src={mypic} className="h-[95vh]" alt="" />
+      <div className="order-first md:order-last ">
+        <img src={mypic} className="h-[90vh] " alt="" />
       </div>
     </section>
   );

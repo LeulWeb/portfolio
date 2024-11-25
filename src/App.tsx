@@ -4,9 +4,12 @@ import {  BgGridWrapper } from "./components/BgGridWrapper";
 import { ContactSection } from "./components/ContactSection";
 import { Footer } from "./components/Footer";
 import { HeroSection } from "./components/HeroSection";
+// import { HeroSection } from "./components/HeroSection";
 import { Navbar } from "./components/Navbar";
 import { ProjectsAndAchievementsSection } from "./components/ProjectsAndAchievementsSection";
 import { ServiceSection } from "./components/ServicesSection";
+import { TimelineSection } from "./components/TimelineSection";
+
 
 export const App = () => {
   return (
@@ -17,6 +20,7 @@ export const App = () => {
           <section className="flex-grow">
             <HeroSection />
             <ServiceSection />
+            <TimelineSection/>
             <ProjectsAndAchievementsSection />
             <ContactSection />
           </section>
