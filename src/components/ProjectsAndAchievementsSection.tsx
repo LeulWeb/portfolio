@@ -14,10 +14,8 @@ export const ProjectsAndAchievementsSection = () => {
 
       <BlogPostCarousel />
       <Certificates />
-      <section className="text-center w-full">
-        <TypographyH2>Achievements</TypographyH2>
-      </section>
-      <Achievements />
+     
+      {/* <Achievements /> */}
     </section>
   );
 };
