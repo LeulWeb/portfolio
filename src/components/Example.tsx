@@ -99,7 +99,7 @@ const Content = ({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease: "easeInOut" }}
         >
-          <span className="rounded-full bg-indigo-600 px-2 py-1.5 text-xs font-medium text-white">
+          <span className="rounded-full bg-gold text-black px-2 py-1.5 text-xs font-medium ">
             {featureInView.callout}
           </span>
           <p className="my-3 text-5xl font-bold">{featureInView.title}</p>
@@ -129,7 +129,7 @@ const ExampleFeature = ({ featureInView }: { featureInView: FeatureType }) => {
       <div className="p-2">
         <p className="font-mono text-sm text-slate-200">
           <span className="text-green-300">$</span> Leul build awesome {" "}
-          <span className="inline-block rounded bg-indigo-600 px-1 font-semibold">
+          <span className="inline-block rounded bg-gold text-black px-1 font-semibold">
             "{featureInView.title}"
           </span>{" "} 
           
@@ -160,7 +160,7 @@ const features: FeatureType[] = [
     callout: "Flutter, dart",
     title: "Cross platform Mobile App",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor iusto quaerat qui, illo incidunt suscipit fugiat distinctio officia earum eius quae officiis quis harum animi.",
+      "I build high-performance cross-platform mobile apps using Flutter and Dart, delivering seamless experiences on both iOS and Android.",
     contentPosition: "r",
     Icon: IoPhonePortraitOutline,
   },
@@ -169,7 +169,7 @@ const features: FeatureType[] = [
     callout: "React,NextJs",
     title: "Front End",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor iusto quaerat qui, illo incidunt suscipit fugiat distinctio officia earum eius quae officiis quis harum animi.",
+      "I create high-performance cross-platform mobile apps with Flutter and Dart, and build dynamic front-end experiences using React, Next.js, React Query, and Redux Toolkit.",
     contentPosition: "l",
     Icon: IoMdDesktop,
   },
@@ -178,7 +178,7 @@ const features: FeatureType[] = [
     callout: "Laravel, Go",
     title: "Backend",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor iusto quaerat qui, illo incidunt suscipit fugiat distinctio officia earum eius quae officiis quis harum animi.",
+      "I build high-performance cross-platform mobile apps with Flutter and Dart, dynamic front-end experiences using React, Next.js, React Query, and Redux Toolkit, and robust backends with Laravel and Node.js.",
     contentPosition: "r",
     Icon: LuServer,
   },
@@ -187,7 +187,7 @@ const features: FeatureType[] = [
     callout: "Figma, AdobeXD",
     title: "UI/UX Design",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor iusto quaerat qui, illo incidunt suscipit fugiat distinctio officia earum eius quae officiis quis harum animi.",
+      "I specialize in crafting intuitive UI designs using Figma and conducting thorough UX research to create seamless, user-centered digital experiences.",
     contentPosition: "l",
     Icon: MdOutlineDesignServices,
   },
