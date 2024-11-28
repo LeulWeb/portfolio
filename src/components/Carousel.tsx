@@ -3,7 +3,7 @@ import { useState } from "react";
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
 import useMeasure from "react-use-measure";
 
-import { TypographyH2 } from "./typography/TypographyH2";
+
 
 import tena_adam from '../assets/tena_adam.jpg'
 import ag from '../assets/ag.png'
@@ -53,15 +53,15 @@ const BlogPostCarousel = () => {
   };
 
   return (
-    <section className="py-8 " ref={ref}>
+    <section className="py-8 my-12 " ref={ref}>
       <div className="relative overflow-hidden p-4">
         <div className="mx-auto ">
           <div className="flex items-center justify-between">
             <section className="text-center w-full">
-              <TypographyH2>Projects</TypographyH2>
+              {/* <TypographyH2>Projects</TypographyH2> */}
             </section>
 
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 py-5">
               <button
                 className={`rounded-lg border-[1px] border-neutral-400 bg-black p-1.5 text-2xl transition-opacity ${
                   CAN_SHIFT_LEFT ? "" : "opacity-30"

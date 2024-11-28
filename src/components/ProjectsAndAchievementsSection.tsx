@@ -7,14 +7,14 @@ import { TypographyH2 } from "./typography/TypographyH2";
 
 export const ProjectsAndAchievementsSection = () => {
   return (
-    <section className="  md:w-10/12 w-11/12  mx-auto">
+    <section className="  md:w-10/12 w-11/12 my-24   mx-auto">
       <div className="w-full text-center">
-        <TypographyH1>My Projects and Achievements</TypographyH1>
+        <TypographyH1>What Have I Built?</TypographyH1>
       </div>
 
       <BlogPostCarousel />
-      <Certificates />
-     
+      {/* <Certificates /> */}
+
       {/* <Achievements /> */}
     </section>
   );
