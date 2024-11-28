@@ -70,7 +70,7 @@ export const HeroSection = () => {
                 asChild
               >
                 <a
-                  href="../assets/leul_resume.pdf"
+                  href="/leul_resume.pdf"
                   download="Leul_Webshet_Resume.pdf"
                 >
                   My Resume
