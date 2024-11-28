@@ -40,12 +40,12 @@ export const  Navbar =()=> {
         {/* Mobile menu */}
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetTrigger asChild>
-            <Button variant="ghost" className="md:hidden p-0">
+            <Button variant="link" className="md:hidden text-gold">
               <Menu className="h-6 w-6" />
               <span className="sr-only">Toggle menu</span>
             </Button>
           </SheetTrigger>
-          <SheetContent side="right">
+          <SheetContent side="top" className="bg-black text-white">
             <nav className="flex flex-col space-y-4 mt-4">
               {navItems.map((item) => (
                 <a
