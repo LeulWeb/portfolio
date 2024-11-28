@@ -7,11 +7,11 @@ import safari from "../assets/achivements/safari.png";
 import showcase from "../assets/achivements/showcase.png";
 import { TypographyH2 } from "./typography/TypographyH2";
 
-const ColorChangeCards = () => {
+const Achievements = () => {
   return (
-    <div className="p-4 md:p-8 text-white w-8/12 mx-auto">
+    <div className="p-4 md:p-8 text-white w-full  md:w-8/12 mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 md:gap-8 w-full">
-        <div className="grid col-span-3 grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8 w-full max-w-6xl mx-auto">
+        <div className="grid col-span-3 grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8 w-full   md:max-w-6xl mx-auto">
           <Card
             heading="Outstanding Graduate"
             description="Graduated with honors from Mekelle University, achieving a 3.88 GPA."
@@ -34,7 +34,7 @@ const ColorChangeCards = () => {
           />
         </div>
 
-        <div>
+        <div className="order-first md:order-last">
           <section className=" w-full">
             <TypographyH2>Achievements</TypographyH2>
           </section>
@@ -114,4 +114,4 @@ const ShiftLetter = ({ letter }: { letter: string }) => {
   );
 };
 
-export default ColorChangeCards;
+export default Achievements;

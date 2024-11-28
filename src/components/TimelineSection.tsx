@@ -25,7 +25,7 @@ export function TimelineSection() {
       logo: tcu_logo,
       content: (
         <div>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1  md:grid-cols-2 gap-4">
             <img
               src={tcu}
               alt="hero template"
@@ -33,7 +33,7 @@ export function TimelineSection() {
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
-            <div className="p-3">
+            <div className="p-1 md:p-3">
               <div className="text-gold w-full">
                 <TypographyH4>UI/UX Designer</TypographyH4>
               </div>
@@ -105,7 +105,7 @@ export function TimelineSection() {
       logo: ashara_logo,
       content: (
         <div>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid  grid-cols-1 md:grid-cols-2 gap-4">
             <img
               src={cashier}
               alt="hero template"
@@ -114,7 +114,7 @@ export function TimelineSection() {
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
 
-            <div className="p-3">
+            <div className="p-1 md:p-3">
               <div className="text-gold w-full">
                 <TypographyH4>Mobile App Developer</TypographyH4>
               </div>
@@ -134,7 +134,7 @@ export function TimelineSection() {
       logo: omishtu_logo,
       content: (
         <div>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <img
               src={safari}
               alt="hero template"
@@ -143,7 +143,7 @@ export function TimelineSection() {
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
 
-            <div className="p-3">
+            <div className="p-1 md:p-3">
               <div className="text-gold w-full">
                 <TypographyH4>Web Developer Instructor</TypographyH4>
               </div>
@@ -164,7 +164,7 @@ export function TimelineSection() {
       logo: bitec_logo,
       content: (
         <div>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <img
               src={rensys}
               alt="hero template"
@@ -172,9 +172,8 @@ export function TimelineSection() {
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
-          
 
-            <div className="p-3">
+            <div className="p-1 md:p-3">
               <div className="text-gold w-full">
                 <TypographyH4>Mobile App Developer</TypographyH4>
               </div>

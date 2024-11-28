@@ -28,10 +28,32 @@ export const HeroSection = () => {
                 </TypographyP>
 
                 <div className="flex py-3 space-x-3 w-full">
-                  <FaGithub className="text-3xl" />
-                  <FaLinkedin className="text-3xl" />
-                  <MdOutlineMail className="text-3xl" />
-                  <FaTelegram className="text-3xl" />
+                  <div>
+                    <a href="https://github.com/LeulWeb" target="_blank">
+                      <FaGithub className="text-3xl" />
+                    </a>
+                  </div>
+
+                  <div>
+                    <a
+                      href="https://www.linkedin.com/in/leul-webshet-8044122b4/"
+                      target="_blank"
+                    >
+                      <FaLinkedin className="text-3xl" />
+                    </a>
+                  </div>
+
+                  <div>
+                    <a href="mailto:leulwebsdev@gmail.com" target="_blank">
+                      <MdOutlineMail className="text-3xl" />
+                    </a>
+                  </div>
+
+                  <div>
+                    <a href="https://t.me/leuldev" target="_blank">
+                      <FaTelegram className="text-3xl" />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

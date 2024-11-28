@@ -1,9 +1,7 @@
+import ProjectCarousel from "./Carousel";
 
-import { Achievements } from "./Achievements";
-import BlogPostCarousel from "./Carousel";
-import { Certificates } from "./Certficates";
+
 import { TypographyH1 } from "./typography/TypographyH1";
-import { TypographyH2 } from "./typography/TypographyH2";
 
 export const ProjectsAndAchievementsSection = () => {
   return (
@@ -12,10 +10,7 @@ export const ProjectsAndAchievementsSection = () => {
         <TypographyH1>What Have I Built?</TypographyH1>
       </div>
 
-      <BlogPostCarousel />
-      {/* <Certificates /> */}
-
-      {/* <Achievements /> */}
+      <ProjectCarousel />
     </section>
   );
 };
