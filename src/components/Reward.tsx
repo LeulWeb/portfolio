@@ -7,7 +7,7 @@ import safari from "../assets/achivements/safari.png";
 import showcase from "../assets/achivements/showcase.png";
 import { TypographyH2 } from "./typography/TypographyH2";
 
-const Achievements = () => {
+const Reward = () => {
   return (
     <div className="p-4 md:p-8 text-white w-full  md:w-8/12 mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 md:gap-8 w-full">
@@ -114,4 +114,4 @@ const ShiftLetter = ({ letter }: { letter: string }) => {
   );
 };
 
-export default Achievements;
+export default Reward;

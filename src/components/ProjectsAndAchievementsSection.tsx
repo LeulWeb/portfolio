@@ -11,6 +11,7 @@ export const ProjectsAndAchievementsSection = () => {
       </div>
 
       <ProjectCarousel />
+      
     </section>
   );
 };

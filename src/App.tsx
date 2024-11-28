@@ -1,11 +1,11 @@
 
-import { Achievements } from "./components/Achievements";
 import {  BgGridWrapper } from "./components/BgGridWrapper";
 import { ContactSection } from "./components/ContactSection";
 import { Footer } from "./components/Footer";
 import { HeroSection } from "./components/HeroSection";
 import { Navbar } from "./components/Navbar";
 import { ProjectsAndAchievementsSection } from "./components/ProjectsAndAchievementsSection";
+import Reward from "./components/Reward";
 import { ServiceSection } from "./components/ServicesSection";
 import { TimelineSection } from "./components/TimelineSection";
 
@@ -21,7 +21,7 @@ export const App = () => {
             <HeroSection />
             <ServiceSection />
             <TimelineSection />
-            <Achievements />
+            <Reward />
             <ProjectsAndAchievementsSection/>
             <ContactSection/>
           </section>
