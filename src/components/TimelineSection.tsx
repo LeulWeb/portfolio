@@ -190,7 +190,7 @@ export function TimelineSection() {
     },
   ];
   return (
-    <div className="w-full bg-transparent">
+    <div className="w-full bg-transparent" id="work" >
       <Timeline data={data} />
     </div>
   );

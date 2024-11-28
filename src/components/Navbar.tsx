@@ -8,9 +8,10 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const navItems = [
-  { name: "About", href: "/about" },
-  { name: "Projects", href: "/projects" },
-  { name: "Contact", href: "/contact" },
+ 
+  { name: "Works", href: "#work" },
+  { name: "Projects", href: "#project" },
+  { name: "Contact", href: "#contact" },
 ];
 
 export const  Navbar =()=> {
@@ -19,7 +20,7 @@ export const  Navbar =()=> {
   return (
     <nav className="fixed top-0 left-0 right-0 h-[10vh]  z-50">
       <div className="container mx-auto px-4 h-full flex items-center justify-between">
-        <a href="/" className="text-xl font-bold">
+        <a href="#home" className="text-xl font-bold">
           Leul Webshet
         </a>
 
@@ -29,7 +30,7 @@ export const  Navbar =()=> {
             <a
               key={item.name}
               href={item.href}
-              className="text-sm font-medium transition-colors hover:text-primary"
+              className="text-sm font-medium transition-colors hover:text-gold"
             >
               {item.name}
             </a>
@@ -50,7 +51,7 @@ export const  Navbar =()=> {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-sm font-medium transition-colors hover:text-primary"
+                  className="text-sm font-medium transition-colors hover:text-gold"
                   onClick={() => setIsOpen(false)}
                 >
                   {item.name}

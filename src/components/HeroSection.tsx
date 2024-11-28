@@ -11,7 +11,7 @@ import { TypographyH1 } from "./typography/TypographyH1";
 
 export const HeroSection = () => {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 my-12 md:my-0 ">
+    <section id="home" className="w-full py-12 md:py-24 lg:py-32 xl:py-48 my-12 md:my-0 ">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col md:flex-row space-x-3 md:space-x-6  justify-center  ">
           <div className="flex flex-col justify-center space-y-4">
@@ -62,14 +62,19 @@ export const HeroSection = () => {
                 asChild
                 className="bg-[#FFD700] text-black hover:bg-[#FFD700]"
               >
-                <a href="#projects">Contact Me</a>
+                <a href="#contact">Contact Me</a>
               </Button>
               <Button
                 variant="outline"
                 className="bg-transparent hover:bg-transparent hover:text-white"
                 asChild
               >
-                <a href="#contact">My Resume</a>
+                <a
+                  href="../assets/leul_resume.pdf"
+                  download="Leul_Webshet_Resume.pdf"
+                >
+                  My Resume
+                </a>
               </Button>
             </div>
           </div>
